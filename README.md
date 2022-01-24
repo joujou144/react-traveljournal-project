@@ -16,7 +16,7 @@ Built with:
 
 ## Demo
 
-![demo]()
+![demo](demo.gif)
 
 ## Getting Started with Create React App
 
