@@ -1,13 +1,102 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  width: 100%
+}
+
+header {
+  background-color: rgba(245, 90, 90, 1) ;
+
+}
+
+.header-logo {
+  max-width: 40px;
+}
+
+.header-section,
+.cards-list {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100px;
+  gap: 10px;
+}
+
+header h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.cards-list {
+  padding: 3rem 1rem;
+}
+
+.card-section {
+  display: flex;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding: 1.5em 0;
+}
+
+.card-img {
+  max-width: 220px;
+  border-radius: 7px;
+}
+
+.card-details {
+  margin: 2em 0;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.location-icon {
+  max-width: 22px;
+  margin-right: 5px;
+}
+
+.location-name {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-right: 20px;
+}
+
+.location-link a {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(163, 163, 163);
+  border-bottom: 2px solid rgb(163, 163, 163);
+}
+
+.card-info {
+  margin-left: 20px;
+}
+
+.card-title {
+  margin-top: 0.3em;
+  letter-spacing: 0.03em;
+  font-size: 2em;
+}
+
+.card-date {
+  padding-top: 0.75em;
+}
+
+.card-description {
+  letter-spacing: 0.05em;
+  margin-top: -10px;
 }
